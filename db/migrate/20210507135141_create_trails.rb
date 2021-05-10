@@ -29,7 +29,7 @@ class CreateTrails < ActiveRecord::Migration[6.1]
       t.string :time_of_day
       t.string :tags
       t.string :season_description
-      t.integer :nps_things_to_do_id
+      t.string :nps_things_to_do_id
       t.boolean :are_pets_permitted_with_restrictions
       t.string :age_description
       t.string :related_parks

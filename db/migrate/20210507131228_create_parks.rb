@@ -19,7 +19,7 @@ class CreateParks < ActiveRecord::Migration[6.1]
       t.string :designation
       t.string :images
       t.string :full_name
-      t.integer :nps_park_id
+      t.string :nps_park_id
       t.string :directions_url
       t.text :description
       t.timestamps
